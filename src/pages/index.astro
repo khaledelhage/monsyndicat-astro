@@ -197,9 +197,7 @@ import ContactForm from '../components/ContactForm.astro';
             <p>MonSyndicat.com offre une plateforme unifiée pour la gestion des membres de votre organisation syndicale. Notre système centralise toutes les informations des membres, créant un espace de travail collaboratif qui favorise la communication efficace. Chaque membre dispose d'un dossier complet, facilitant le suivi et la gestion. Avec MonSyndicat.com, la gestion des membres de votre syndicat n'a jamais été aussi simple et efficace.</p>
           </div>
           <div class="feature-visual">
-            <div class="feature-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-            </div>
+            <img src="/images/FicheMembre.png" alt="Capture d'écran du module de gestion des membres" class="feature-img" />
           </div>
         </div>
 
@@ -209,9 +207,7 @@ import ContactForm from '../components/ContactForm.astro';
             <p>Avec MonSyndicat.com, vous avez accès à des outils de recherche avancés et à des statistiques détaillées pour vous aider à rester organisé et informé. Suivez l'évolution de votre syndicat, identifiez les tendances et prenez des décisions éclairées basées sur des données précises. Nos outils de recherche et statistiques sont conçus pour vous donner une vue d'ensemble claire de votre organisation syndicale.</p>
           </div>
           <div class="feature-visual">
-            <div class="feature-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-            </div>
+            <img src="/images/Stat-recours-01.png" alt="Capture d'écran des outils de recherche et statistiques" class="feature-img" />
           </div>
         </div>
 
@@ -221,9 +217,7 @@ import ContactForm from '../components/ContactForm.astro';
             <p>Améliorez la gestion des griefs et des dossiers SST avec MonSyndicat.com. Notre système offre un suivi précis du cheminement et des délais de rigueur, assurant que chaque étape est documentée et accessible. Tous les détails sont conservés dans un dossier numérique complet, permettant une gestion efficace et transparente des griefs et des dossiers SST.</p>
           </div>
           <div class="feature-visual">
-            <div class="feature-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
-            </div>
+            <img src="/images/Griefs.png" alt="Capture d'écran du module de gestion des griefs" class="feature-img" />
           </div>
         </div>
 
@@ -233,9 +227,7 @@ import ContactForm from '../components/ContactForm.astro';
             <p>Restez en contact avec vos membres grâce à notre fonctionnalité d'envoi de courriels de masse. Informez vos membres des dernières nouvelles, des mises à jour et des événements à venir. Avec MonSyndicat.com, la communication avec vos membres est simplifiée et efficace, renforçant l'engagement et la participation.</p>
           </div>
           <div class="feature-visual">
-            <div class="feature-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-            </div>
+            <img src="/images/Envois.png" alt="Capture d'écran du module d'envoi de courriels de masse" class="feature-img" />
           </div>
         </div>
 
@@ -245,9 +237,7 @@ import ContactForm from '../components/ContactForm.astro';
             <p>Simplifiez la gestion des comptes de dépenses avec MonSyndicat.com. Notre système automatisé vous permet de suivre les dépenses des militants, de valider les règles de remboursement, et de faire un dépôt direct et lien avec le système comptable. Avec MonSyndicat.com, la gestion des comptes de dépenses est transparente et efficace.</p>
           </div>
           <div class="feature-visual">
-            <div class="feature-placeholder">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
-            </div>
+            <img src="/images/Liberations.jpg" alt="Capture d'écran du module de gestion des comptes de dépenses" class="feature-img" />
           </div>
         </div>
       </div>
@@ -551,21 +541,10 @@ import ContactForm from '../components/ContactForm.astro';
     justify-content: center;
   }
 
-  .feature-placeholder {
+  .feature-img {
     width: 100%;
-    aspect-ratio: 16/10;
-    background-color: var(--color-bg-alt);
-    border: 2px dashed var(--color-border);
     border-radius: var(--radius-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-border);
-  }
-
-  .feature-placeholder svg {
-    width: 64px;
-    height: 64px;
+    box-shadow: var(--shadow-lg);
   }
 
   /* Contact */
