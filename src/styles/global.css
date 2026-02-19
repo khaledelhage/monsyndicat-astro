@@ -91,6 +91,7 @@ h3 {
 
 .section {
   padding: 5rem 1.5rem;
+  scroll-margin-top: 100px;
 }
 
 .section-inner {
