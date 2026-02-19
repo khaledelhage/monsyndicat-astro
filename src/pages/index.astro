@@ -498,8 +498,8 @@ import ContactForm from '../components/ContactForm.astro';
   }
 
   .step-number {
-    width: 56px;
-    height: 56px;
+    width: 112px;
+    height: 112px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -507,7 +507,7 @@ import ContactForm from '../components/ContactForm.astro';
     background-color: var(--color-primary);
     color: #FFFFFF;
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 700;
     border-radius: 50%;
   }
@@ -528,14 +528,14 @@ import ContactForm from '../components/ContactForm.astro';
 
   .step-arrow {
     display: flex;
-    align-items: center;
-    padding-top: 2.5rem;
-    color: var(--color-border);
+    align-items: flex-start;
+    padding-top: calc(2rem + 40px);
+    color: var(--color-text-light);
   }
 
   .step-arrow svg {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
   }
 
   /* Features */
